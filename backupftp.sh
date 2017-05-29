@@ -33,7 +33,7 @@ put $FULLNAME /backup/$NAME
 bye
 END_FTP
 #Pour finir, on peut liberer l'espace
-rm -R $FULLNAME
+#rm -R $FULLNAME
 else
 echo 'Dossier source introuvable ('$SAVEDIRECTORY')'
 fi
