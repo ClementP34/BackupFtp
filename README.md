@@ -17,6 +17,6 @@ tar xvzf archive.tar.gz
 
 --------------------------------------------
 
-Tache cron tout les jours, dans /etc/crontab :
+Tache cron tout les jours à 4h, dans /etc/crontab :
 
 echo '0 4  * *  * root /chemin/de/backupftp.sh'
