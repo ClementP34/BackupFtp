@@ -11,3 +11,7 @@ openssl enc -d -aes-256-cbc -in fichier-chiffré.crypt -out fichier-déchiffré.
 Pour decopresser l'archive :
 
 tar xvzf archive.tar.gz 
+
+Tache cron tout les jours, dans /etc/crontab :
+
+echo '0 4  * *  * root /chemin/de/backupftp.sh'
